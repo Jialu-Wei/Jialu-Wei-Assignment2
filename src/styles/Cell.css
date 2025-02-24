@@ -1,0 +1,20 @@
+
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid grey;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cell.white {
+    background-color: white;
+}
+
+.cell.black {
+    background-color: black;
+}

@@ -1,0 +1,18 @@
+
+
+
+.grid-container {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* ✅ 让整个网格居中 */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);  /* ✅ 2 列 */
+    grid-template-rows: repeat(2, 100px);  /* ✅ 2 行 */
+    justify-content: center;  /* ✅ 水平居中 */
+    align-items: center;  /* ✅ 垂直居中 */
+}
